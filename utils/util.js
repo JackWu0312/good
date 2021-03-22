@@ -1,18 +1,17 @@
-
 function request(url, data = {}, method = "GET") {
-  return new Promise(function(resolve, reject) {
-    wx.request({ 
-      url: host + url,    
-      data: data,      
-      method: method,   
+  return new Promise(function (resolve, reject) {
+    wx.request({
+      url: host + url,
+      data: data,
+      method: method,
       header: {
         'Content-Type': 'application/json',
-        'Wechat-Auth-Token': wx.getStorageSync('token') 
-      }, 
-      success: function(res) { 
+        'Wechat-Auth-Token': wx.getStorageSync('token')
+      },
+      success: function (res) {
         if (res.data.errno == 0) {
-          resolve(res.data); 
-        }else {  
+          resolve(res.data);
+        } else {
           if (res.data.errmsg.length >= 8) {
             showToast(res.data.errmsg)
           } else {
@@ -20,12 +19,13 @@ function request(url, data = {}, method = "GET") {
           }
         }
       },
-      fail: function(err) {
+      fail: function (err) {
         reject(err)
       }
     })
   });
-} 
+}
+
 function showErrorToast(msg) {
   wx.showToast({
     title: msg,
@@ -41,7 +41,7 @@ function showToast(msg) {
     duration: 2000
   })
 }
- 
+
 
 const formatTime = date => {
   const year = date.getFullYear()
