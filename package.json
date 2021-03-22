@@ -1,0 +1,25 @@
+{
+  "name": "good",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackWu0312/good.git"
+  },
+  "keywords": [
+    "jifenshangcheng"
+  ],
+  "author": "wudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackWu0312/good/issues"
+  },
+  "homepage": "https://github.com/JackWu0312/good#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.6.8"
+  }
+}
