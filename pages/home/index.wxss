@@ -1,1 +1,52 @@
-/* pages/home/index.wxss */
+.home {
+  background: #EEEEEE;
+}
+
+.heard {
+  background: #CE3C31;
+  padding-bottom: 20rpx;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.heard .hometitle {
+  font-size: 36rpx;
+  padding-top: 60rpx;
+  padding-left: 20rpx;
+  padding-bottom: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.heard .search {
+  box-sizing: border-box;
+  width: 710rpx;
+  margin-left: 20rpx;
+  height: 65rpx;
+  background: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heard .search image {
+  width: 26rpx;
+  height: 26rpx;
+  margin: 0 20rpx;
+}
+
+.heard .search input {
+  flex: 1;
+  height: 65rpx;
+}
+
+.placeholder {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #9F9F9F;
+}

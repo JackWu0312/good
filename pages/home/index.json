@@ -1,5 +1,10 @@
 {
   "usingComponents": {
     "van-button": "@vant/weapp/button/index"
-  }
+  },
+  "navigationStyle": "custom",
+  "navigationBarTextStyle":"white",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "小程序顶部"
+ 
 }

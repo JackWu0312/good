@@ -1,3 +1,12 @@
-<view>首页
-  <van-button type="primary">默认按钮</van-button>
+<view  class="home">
+  <view class="heard">
+    <view class="hometitle">莱特经贸</view>
+    <view class="search" >
+      <image src="../../static/seach.png"></image>
+      <input type="text" placeholder="医用口罩" placeholder-class="placeholder" />
+    </view>
+  </view>
+  
+
+  
 </view>

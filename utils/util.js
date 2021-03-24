@@ -18,7 +18,7 @@ function request(url, data = {}, method = "GET") {
             showErrorToast(res.data.errmsg)
           }
         }
-      },
+      },  
       fail: function (err) {
         reject(err)
       }
