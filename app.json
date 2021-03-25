@@ -12,34 +12,34 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
-    "backgroundColor": "#fafafa",
+    "backgroundColor": "#ffffff",
     "borderStyle": "white",
-    "selectedColor": "#111F37",
-    "color": "#9398A5",
+    "selectedColor": "#DC1C22",
+    "color": "#FF333333",
     "list": [
       {
         "pagePath": "pages/home/index",
-        "iconPath": "static/gasoline.png",
-        "selectedIconPath": "static/selectgasoline.png",
+        "iconPath": "static/tab_home.png",
+        "selectedIconPath": "static/tab_home_active.png",
         "text": "首页"
       }, 
      
       {
         "pagePath": "pages/mall/index",
-        "iconPath": "static/gasoline.png",
-        "selectedIconPath": "static/selectgasoline.png",
-        "text": "商城" 
+        "iconPath": "static/tab_mall.png",
+        "selectedIconPath": "static/tab_mall_active.png",
+        "text": "商城"
       },    
       {
         "pagePath": "pages/cart/index",
-        "iconPath": "static/gasoline.png",
-        "selectedIconPath": "static/selectgasoline.png",
+        "iconPath": "static/tab_cart.png",
+        "selectedIconPath": "static/tab_cart_active.png",
         "text": "购物车"
       },
       {
         "pagePath": "pages/home/index",
-        "iconPath": "static/gasoline.png",
-        "selectedIconPath": "static/selectgasoline.png",
+        "iconPath": "static/tab_mine.png",
+        "selectedIconPath": "static/tab_mine_active.png",
         "text": "我的"
       }
     ]    
