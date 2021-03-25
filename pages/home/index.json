@@ -4,7 +4,7 @@
   },
   "navigationStyle": "custom",
   "navigationBarTextStyle":"white",
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTitleText": "小程序顶部"
+  "navigationBarBackgroundColor": "#ffffff"
+ 
  
 }
